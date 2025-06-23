@@ -1,18 +1,19 @@
+  .center-box {
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      border: 2px solid black;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
 
-.container {
-	position: absolute;       /* or fixed */
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: lightblue;
-	color:purple;
-	width:200px;
-	height:200px;
-	border:2px solid black;
-	font-weight:bolder;
-	display: flex;
-	justify-content:center;
-	align-items: center;    /* vertical center */
-}
-
-	
+    .center-text {
+      color: purple;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: Arial, sans-serif;
+    }
